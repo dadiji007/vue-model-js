@@ -1,4 +1,16 @@
-## Vue-model的原理实现：
+## 目录树
+│  Complier.js
+│  Dep.js
+│  index.html
+│  main.js
+│  Observer.js
+│  Vue.js
+│  Watcher.js
+│
+└─dist
+        main.js
+
+## Vue-model（双向绑定）的原理实现：
 
 ## 效果
-![](https://user-gold-cdn.xitu.io/2017/5/23/d135103957445ff5ed951ae070089091?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](https://lz-007-blog.oss-cn-beijing.aliyuncs.com/vue-model-js.gif)
