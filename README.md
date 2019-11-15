@@ -1,14 +1,13 @@
 ## 目录树
-│  Complier.js
-│  Dep.js
-│  index.html
-│  main.js
-│  Observer.js
-│  Vue.js
-│  Watcher.js
-│
-└─dist
-        main.js
+- Complier.js
+- Dep.js
+- index.html
+- main.js
+- Observer.js
+- Vue.js
+- Watcher.js       
+- dist
+    - main.js
 
 ## Vue-model（双向绑定）的原理实现：
 
