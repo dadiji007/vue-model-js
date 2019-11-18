@@ -1,5 +1,5 @@
 /**
- * 订阅者 DEP
+ * 订阅者模块 DEP
  */
 
 class Dep {
@@ -10,9 +10,7 @@ class Dep {
         this.list.push(subs)            //添加订阅者
     }
     notify() {      
-        for(let i = 0; i<this.list.length; i++) {
-            this.list[i].update()       //通知每一个订阅者
-        }
+        this.list.forEach(subs => subs.update())    //通知每一个订阅者
     }
 }
 

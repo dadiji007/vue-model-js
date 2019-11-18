@@ -10,4 +10,4 @@ const vue = new Vue({
     },
 })
 
-window.vue = vue
+window.vue = vue    //全局绑定vue变量
